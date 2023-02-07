@@ -1,0 +1,9 @@
+*.bit
+log/
+auto/
+work/
+tmp/
+*.bin
+*.aux
+*.out
+*.log
