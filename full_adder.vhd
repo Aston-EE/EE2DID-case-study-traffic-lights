@@ -1,9 +1,5 @@
--- EE2DID
--- Assignment 1 Exercise
--- Name: Dr John Williams
---
-
--- Purpose:
+-- Template for full adder
+-- Copyright 2017-2023 Aston University
 
 library ieee;
 use ieee.std_logic_1164.all;

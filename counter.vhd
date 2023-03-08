@@ -1,8 +1,5 @@
--- EE2DID
--- Name: XXXXX
--- Collaborators: XXXXX
--- Time Taken: XX:XX
---
+-- Template for counter implementation
+-- Copyright 2017-2023 Aston University
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL; -- need this for std_logic types

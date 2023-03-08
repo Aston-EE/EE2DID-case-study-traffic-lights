@@ -1,7 +1,7 @@
 # Makefile for students level 5 VHDL laboratory work
 # using ghdl for vhdl simulation, gtkwave to view waveforms and vivado
 # to syntesise and generate bit files for an FPGA
-# (c) Dr. John A.R. Williams <j.a.r.williams@aston.ac.uk> 2018
+# Copyright 2017-2023 Aston University
 
 # The conventions assumed by this makefile are given below in help definition
 # below - just type `make` to see them. 

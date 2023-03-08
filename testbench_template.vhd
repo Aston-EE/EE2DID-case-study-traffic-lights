@@ -1,16 +1,5 @@
---------------------------------------------------------------------------------
--- Title:        : Testbench Template 
--- Project       : EE2DID Practical Work - Introduction
--- Author        : John A.R. Williams
--- Copyright     : 2020 Dr. J.A.R. Williams (JARW), Aston University
---------------------------------------------------------------------------------
--- Purpose       : A template for creating a testbench.
---               : 
---------------------------------------------------------------------------------
--- Revisions     :
--- Date       Ver Author  Description
--- 2020-06-17 1.0 JARW    Created
---------------------------------------------------------------------------------
+-- Generic template for testbenches
+-- Copyright 2017-2023 Aston University
 
 -- declarations for standard logic as needed
 library IEEE;

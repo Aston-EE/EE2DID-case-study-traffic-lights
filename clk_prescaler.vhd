@@ -1,7 +1,5 @@
--- EE2DID
--- Name: XXXXX
--- Collaborators: XXXXX
--- Time Taken: XX:XX
+-- Template to implement a clock prescaler
+-- The template is Copyright 2017-2023 Aston University
 
 library IEEE;
 use IEEE.std_logic_1164.all;

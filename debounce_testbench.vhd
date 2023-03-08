@@ -1,16 +1,5 @@
---------------------------------------------------------------------------------
--- Title:        : Debounce testbench
--- Project       : EE2DID Practical Work
--- Author        : John A.R. Williams
--- Copyright     : 2019,2020 Dr. J.A.R. Williams, Aston University
---------------------------------------------------------------------------------
--- Purpose       : Implements a simulation testbench for the debounce entity
---               : Checks both debounced and down_event outputs.
---------------------------------------------------------------------------------
--- Revisions     :
--- Date       Version Author                Description
--- 2018-04-04 1.0     John A.R. Williams    Created
---------------------------------------------------------------------------------
+-- Template to test debounce implementation
+-- Copyright 2017-2023 Aston University
 
 library IEEE;
 use IEEE.std_logic_1164.all;
