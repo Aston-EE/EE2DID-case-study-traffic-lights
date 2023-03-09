@@ -179,9 +179,3 @@ set_property IOSTANDARD LVCMOS33 [get_ports -regexp { .* }]
 #set_property PACKAGE_PIN K19 [get_ports QspiCSn]					
 
 #some common settings for BASYS-3
-
-
-
-### Local Variables:
-### mode: tcl
-### End:
