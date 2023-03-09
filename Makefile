@@ -1,6 +1,6 @@
 # Makefile for students level 5 VHDL laboratory work
 # using ghdl for vhdl simulation, gtkwave to view waveforms and vivado
-# to syntesise and generate bit files for an FPGA
+# to synthesise and generate bit files for an FPGA
 # Copyright 2017-2023 Aston University
 
 # The conventions assumed by this makefile are given below in help definition
@@ -22,10 +22,10 @@ full_adder.bit: full_adder.vhd
 clk_prescaler_testbench: clk_prescaler.vhd clk_prescaler_testbench.vhd
 debounce_testbench: debounce.vhd clk_prescaler.vhd debounce_testbench.vhd
 counter_testbench: counter.vhd counter_testbench.vhd
-counter_demo.bit: clk_prescaler.vhd counter.vhd counter_demo.vhd
-counter2_demo.bit: counter.vhd counter2_demo.vhd
-debounce_demo.bit: debounce.vhd clk_prescaler.vhd debounce_demo.vhd
 fourcounter.bit: EE2IDD.vhd debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
+fourcounter_testbench: clk_prescaler.vhd debounce.vhd counter.vhd fourcounter.vhd fourcounter_testbench.vhd
+
+include casestudy.mk
 
 #################################################################
 # Do not change anything below this line
