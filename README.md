@@ -21,8 +21,8 @@ These will have branches
 
 The coursework for a specific year should be a merge of the introduction and the case study into a new branch
 
-
 ## Case study History
+
     2017: stopwatch (binary counter)
     2018: dicegame
     2019: vending-machine
@@ -31,8 +31,6 @@ The coursework for a specific year should be a merge of the introduction and the
     2022: dicegame
 
 ## Future plans
+
     2023: vending-machine
     2024: stopwatch
-
-
-
