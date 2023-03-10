@@ -2,7 +2,7 @@
 -- Title       : Testbench for timed traffic lights
 -- Project     : EE2DDS Practical Work
 -- Author      : John A.R. Williams
--- Copyright   : 2021 Dr. J.A.R. Williams, Aston University
+-- Copyright   : 2017-2023 Aston University
 --------------------------------------------------------------------------------
 -- Description :
 -- Testbench for the timed traffic lights

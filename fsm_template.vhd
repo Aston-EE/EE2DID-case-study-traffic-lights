@@ -2,7 +2,7 @@
 -- Title       : Finite State Machine Template
 -- Project     : EE2DDS Practical Work
 -- Author      : John A.R. Williams
--- Copyright   : 2017 Dr. J.A.R. Williams, Aston University
+-- Copyright   : 2017-2023 Aston University
 --------------------------------------------------------------------------------
 -- Description :
 -- A three process finite state machine design template in VHDL as per Xilinx
