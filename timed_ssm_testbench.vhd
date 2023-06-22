@@ -42,7 +42,7 @@ architecture behaviour of timed_ssm_testbench is
   end record;
   type table_vector is array (natural range<>) of table_entry;
   
-  constant sequence: table_vector :=
+  constant seq: table_vector :=
     (("110100",2), -- RAR
      ("001100",30), --GR
      ("010100",4), -- AR
@@ -118,9 +118,9 @@ begin
   begin
     finished<='0';
     prev:=lights;
-    for i in sequence'range loop
-      expected := sequence(i).lights;
-      duration := sequence(i).duration;
+    for i in seq'range loop
+      expected := seq(i).lights;
+      duration := seq(i).duration;
       -- check lights are as expected
       assert(lights=expected)
         report "Expected "&to_string(expected)& " but got "&to_string(lights);

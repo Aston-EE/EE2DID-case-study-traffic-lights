@@ -49,7 +49,7 @@ architecture behaviour of priority_ssm_testbench is
   end record;
 
   type table_vector is array (natural range<>) of table_entry;
-  constant sequence: table_vector :=
+  constant seq: table_vector :=
     (
       -- lights min max set sens hold
       -- sensor operation - it clears
@@ -143,16 +143,16 @@ begin
   begin
     finished<='0';
     prev:=lights;
-    for i in sequence'range loop
-      expected := sequence(i);
+    for i in seq'range loop
+      expected := seq(i);
       -- check lights are as expected
       assert(lights=expected.lights)
         report "Expected "&to_string(expected.lights)& " but got "&to_string(lights);
       -- if a signal is to be set then set it after delay
       if expected.signal_set_time /=0 then
-        wait until to_integer(time)=sequence(i).signal_set_time;
-        hold<=sequence(i).hold;
-        sensor<=sequence(i).sensor;
+        wait until to_integer(time)=seq(i).signal_set_time;
+        hold<=seq(i).hold;
+        sensor<=seq(i).sensor;
       end if;
       -- wait for lights to change
       wait until lights /= prev;
